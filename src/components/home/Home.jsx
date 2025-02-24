@@ -8,7 +8,7 @@ import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined
 import SearchIcon from '@mui/icons-material/Search';
 import MenuIcon from '@mui/icons-material/Menu'; 
 import CloseIcon from '@mui/icons-material/Close'; 
-import Footer from '../Footer/Footer';
+import Footer from '../footer/Footer';
 
 function Home() {
   const [menuOpen, setMenuOpen] = useState(false);

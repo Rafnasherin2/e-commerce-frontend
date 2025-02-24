@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import store from "./redux/store";
 import { fetchProducts } from "./redux/slice/productSlice";
 import "./App.css";
-import Footer from "./components/Footer/Footer";
+import Footer from "./components/footer/Footer";
 import Home from "./components/home/Home";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     dispatch(fetchProducts()); 
 
-    
+
   }, [dispatch]);
 
   return (
